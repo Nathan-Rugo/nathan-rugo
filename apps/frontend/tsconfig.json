@@ -1,0 +1,16 @@
+{
+  "extends": ["../../tsconfig.base.json"],
+  "include": [
+    "src",
+    "src/**/*.json",
+    "e2e",
+    "vite.config.ts",
+    "playwright.config.ts"
+  ],
+  "compilerOptions": {
+    "lib": ["DOM"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true
+  }
+}
